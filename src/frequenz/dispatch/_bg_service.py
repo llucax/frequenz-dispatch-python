@@ -231,7 +231,7 @@ class DispatchScheduler(BackgroundService):
     async def _run(self) -> None:
         """Run the background service."""
         _logger.info(
-            "Starting dispatching background service for microgrid %s",
+            "Starting dispatching background service for %s",
             self._microgrid_id,
         )
 
